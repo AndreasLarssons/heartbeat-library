@@ -19,9 +19,9 @@ import com.bitcoin.wallet.RegistryConnectionFacadeImpl;
 import okhttp3.OkHttpClient;
 
 @Configuration
-public class Config {
+public class HeartbeatConfiguration {
 
-	private static final Logger logger = LoggerFactory.getLogger(Config.class);
+	private static final Logger logger = LoggerFactory.getLogger(HeartbeatConfiguration.class);
 
 	@Bean
 	public OkHttpClient okHttpClient () {
